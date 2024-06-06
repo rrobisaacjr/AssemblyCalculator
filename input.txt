@@ -1,0 +1,9 @@
+file a.out
+set disassembly-flavor intel
+b*exit_here
+r
+i r al
+x/db &num1
+x/db &num2
+x/3db &num1Char
+x/3db &num2Char
