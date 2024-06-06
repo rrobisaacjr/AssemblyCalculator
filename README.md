@@ -30,3 +30,15 @@ Upon selecting an operation, the program prompts the user to enter two two-digit
 - **division**: Performs integer division of two numbers and displays the result.
 - **askUserTwoNumbers**: Prompts the user to enter two two-digit numbers, converts them to numerical format, and calls the appropriate operation function.
 - **convertAnswerToStringandDisplay**: Converts the numerical result to a string and displays it.
+
+## How to Use
+
+1. Clone the repository or download the assembly file.
+2. Assemble the assembly file using NASM:
+   
+   ```bash
+   nasm -felf64 isaacrr_exer9.asm
+   ld isaacrr_exer9.o
+   ./a.out
+   ```
+3. Simulate/test the program by providing needed input.
